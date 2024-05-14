@@ -31,3 +31,19 @@ void mahasiswa::printAll()
     cout << "Nama  = " << nama << endl;
     cout << endl;
 }
+
+int main()
+{
+    mahasiswa mhs1("Pedro");
+    mahasiswa mhs2("Cristiano neymar");
+    mahasiswa mhs3("padudum");
+    mahasiswa mhs4("susanto");
+
+
+    mhs1.printAll();
+
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
+}
